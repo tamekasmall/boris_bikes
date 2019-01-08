@@ -8,6 +8,6 @@ NameError (uninitialized constant DockingStation)<br>
 
 <li>The error is: uninitialized constant
 <li>The file path is: /Users/debora/.rvm/rubies/ruby-2.5.1/bin/irb:11:in
-<li>The line number is: 1
+<li>The line number is: 11
 <li>The error means: The class DockingStation was not initialized (nor created)
 <li>Solution: Create and initialize the class needed
