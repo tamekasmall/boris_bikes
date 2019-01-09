@@ -7,8 +7,11 @@ describe DockingStation do
     bike = subject.release_bike
     expect(bike).to be_working # .to be_working => .to eq()
 end
-  it 'is possible to dock bike' do
-    docking_station = DockingStation.new()
-    expect(docking_station.docked_status).to eql(true)
+  it 'check if two bikes are left' do
+    docking_station = DockingStation.new
+    bike = docking_station.release_bike
+    expect(docking_station.docked_slots).to eql(2)
+    
   end
+
   end
